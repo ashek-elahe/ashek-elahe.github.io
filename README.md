@@ -1,36 +1,52 @@
 # ashek-elahe.github.io
 
-A lightweight personal website hosted on **GitHub Pages**, built with **HTML/CSS/JS** and the **Now UI Kit** (Bootstrap-based).  
-Live at: `https://ashek-elahe.github.io/` (once published from the `main`/`master` branch).
+Personal portfolio website built with HTML, CSS, and JavaScript using the Now UI Kit (Bootstrap-based). Deployed on GitHub Pages.
 
----
+Live site: `https://ashek-elahe.github.io/`
 
-## ✨ Features
+## Overview
 
-- Responsive layout (mobile-first)
-- Clean Now UI Kit components (cards, navbar, buttons)
-- Simple static setup — no backend required
-- Easy to customize sections (About, Projects, Contact)
+This is a static portfolio with sections like About, Skills, Portfolio, Experience, Education, References, and Contact. It is designed to be simple to edit and deploy.
 
----
+## Tech Stack
 
-## 🧰 Tech Stack
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap / Now UI Kit
 
-- **HTML5 / CSS3 / JavaScript**
-- **Bootstrap / Now UI Kit**
-- Optional: Node tooling for local dev (see below)
+## Project Structure
 
-> Tip: If you plan to modernize, consider upgrading to **Bootstrap 5** (drops jQuery) and bundling with **Vite/Rollup**.
+- `index.html`: Main page and content
+- `css/`: Stylesheets
+- `js/`: Scripts and UI libraries
+- `images/`: Images and icons
+- `CNAME`: Custom domain (if configured)
 
----
+## Run Locally
 
-## 🚀 Getting Started (Local)
+Open `index.html` directly in a browser, or serve it locally:
 
-You can view the site in a browser by simply opening `index.html`.  
-For a nicer dev experience (hot reload, proper routing), serve it locally:
-
-### Option A: Quick server (Python)
 ```bash
-# From project root
 python3 -m http.server 8080
-# then visit http://localhost:8080
+```
+
+Then visit `http://localhost:8080`.
+
+## Customize Content
+
+Edit `index.html` to update:
+
+- Header title, subtitle, and social links
+- About section text
+- Skills, portfolio items, and experience
+- Language proficiency and co-curricular activities
+- Contact details
+
+## Deploy
+
+Push to the default branch and enable GitHub Pages for the repository. The site will publish from the root.
+
+## License
+
+This project is intended for personal use. Update as needed for your own portfolio.
